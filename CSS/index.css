@@ -48,5 +48,22 @@ table {
 }
 
 body {
-    background-color: #E8505B;
+    background-color: #F3ECC2;
+}
+
+h1 {
+	color: #005D6E;
+}
+
+nav a {
+	text-decoration: none;
+	color: #14B1AB;
+}
+
+h2 {
+	color: #3E3E3E;
+}
+
+p {
+	color: #FF7777;
 }
