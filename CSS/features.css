@@ -131,3 +131,50 @@ section p {
     font-family: "Arial", sans-serif;
     font-size: 24px;
 }
+
+@media (max-width: 1000px) {
+	h2 {
+		font-size: 3.75rem;
+        text-align: center;
+        margin-top: 5%;
+	}
+	p {
+		font-size: 1.5rem;
+		text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 15%;
+        width: 750px;
+    }
+    p {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+		font-size: 2rem;
+	}
+	nav a {
+		font-size: 1.25rem;
+    }
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 25%;
+        width: 475px;
+        margin-bottom: 2%;
+    }
+    p {
+        text-align: center;
+        width: 400px;
+        margin-bottom: 3%;
+        font-size: 1.5rem;
+    }
+}
