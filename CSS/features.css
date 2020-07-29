@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: #F3ECC2;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+h1 {
+    text-align: left;
+    font-family: “Arial”, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #14B1AB;
+    opacity: 1;
+    width: 120px;
+    height: 44px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #14B1AB;
+}
+nav a {
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-decoration: none;
+    height: 27px;
+    margin-top: 49px;
+}
+.features {
+    width: 95px;
+    color: #005D6E;
+    text-shadow: 0px 2px 2px #00000029;
+}
+
+.team {
+    width: 59px;
+    color: #14B1AB;
+}
+
+.login {
+    width: 59px;
+    color: #14B1AB;
+}
+
+.sign-up {
+    width: 85px; 
+    color: #14B1AB;
+}
+
+h2 {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FF7777;
+    width: 878px;
+    height: 67px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 5%;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+	padding: 4%;
+}
+
+section p {
+    margin-top: 2%;
+    color: #3E3E3E;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+}
