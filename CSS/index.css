@@ -140,7 +140,7 @@ footer img {
 	margin-bottom: 5%;
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
 	h2 {
 		font-size: 5rem;
 		text-align: center;
@@ -173,7 +173,7 @@ footer img {
 	footer {
 		margin-top: 5%;
 	}
-}
+} */
 
 @media ( min-width: 500px ) {
 	h1 {
@@ -201,5 +201,48 @@ footer img {
 	}
 	footer {
 		margin-top: 33%;
+	}
+}
+
+@media ( max-width: 499px ) {
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+	div.title {
+		font-size: 2rem;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 5%;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 60%;
+	}
+	nav a {
+		font-size: 1.5rem;
+		justify-content: space-between;
+	}
+	h2 {
+		font-size: 2.5rem;
+		text-align: center;
+		margin-top: 25%;
+	}
+	p {
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 3%;
+	}
+	h4 {
+		font-size: .75rem;
+	}
+	h5 {
+		font-size: .5rem;
+		margin-left: 15%;
+	}
+	footer {
+		margin-top: 33%;	
 	}
 }
