@@ -58,13 +58,6 @@ header {
 	justify-content: space-evenly;
 }
 
-/* header h1 {
-	justify-content: flex-start;
-}
-
-header nav {
-	align-items: flex-end;
-} */
 h1 {
 	color: #005D6E;
 	font-family: “Arial”, sans-serif;
@@ -77,17 +70,29 @@ h1 a{
     color: #005D6E;
 }
 
+.title{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+}
+
+nav {
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 nav a {
 	text-decoration: none;
 	color: #14B1AB;
 	font-family: “Arial”, sans-serif;
 	font-size: 24px;
-	justify-content: space-between;
 }
 
 h2 {
 	color: #3E3E3E;
-	font-family: “Arial Bold”, sans-serif;
+	font-family: “Arial”, sans-serif;
+	font-weight: bold;
 	font-size: 60px;
 }
 
@@ -170,12 +175,12 @@ footer img {
 	}
 }
 
-@media ( max-width: 500px ) {
+@media ( min-width: 500px ) {
 	h1 {
 		font-size: 2rem;
 	}
 	nav a {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	h2 {
 		font-size: 2.5rem;

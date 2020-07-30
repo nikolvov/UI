@@ -51,7 +51,7 @@ body {
     background-color: #F3ECC2;
 }
 
-header {
+/* header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -74,6 +74,18 @@ h1 a{
     color: #14B1AB;
 }
 
+.title{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+}
+
+nav {
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 nav a {
     text-align: left;
     font-family: "Arial", sans-serif;
@@ -84,6 +96,50 @@ nav a {
     height: 27px;
 	margin-top: 49px;
 	color: #14B1AB;
+} */
+
+header {
+	display: flex;
+	align-items: center;
+	margin: 2%;
+	justify-content: space-evenly;
+}
+
+h1 {
+	color: #14B1AB;
+	font-family: “Arial”, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #14B1AB;
+}
+
+.about {
+	color: #005D6E;
+}
+
+.title{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+	text-decoration: none;
+    color: #14B1AB;
+}
+
+nav {
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav a {
+	text-decoration: none;
+	color: #14B1AB;
+	font-family: “Arial”, sans-serif;
+	font-size: 24px;
 }
 
 .team {
@@ -199,11 +255,11 @@ h4 {
 	margin-top: 5%;
 }
 
-div a {
+div .button a{
 	font-family: "Arial", sans-serif;
 	font-weight: bold;
 	font-size: 16px;
-	color: #14B1AB;
+	color: #FFFFFF;
 	text-align: center;
 	opacity: 1;
 	letter-spacing: 0px;
@@ -213,7 +269,7 @@ div a {
 	margin-top: 10%;
 }
 
-.button {
+button {
 	background: #3E3E3E 0% 0% no-repeat padding-box;
 	box-shadow: 0px 2px 2px #00000029;
 	border-radius: 5px;
@@ -222,6 +278,12 @@ div a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 img{
@@ -283,7 +345,7 @@ img{
 		font-size: 2rem;
 	}
 	nav a {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	.mem1{
 		margin-left: 30%;

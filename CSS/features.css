@@ -58,50 +58,40 @@ header {
     margin: 2%;
 }
 h1 {
-    text-align: left;
-    font-family: “Arial”, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 0px;
-    color: #14B1AB;
-    opacity: 1;
-    width: 120px;
-    height: 44px;
+	color: #14B1AB;
+	font-family: “Arial”, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
 }
 
 h1 a{
     text-decoration: none;
     color: #14B1AB;
 }
-nav a {
-    text-align: left;
-    font-family: "Arial", sans-serif;
-    font-size: 24px;
-    letter-spacing: 0px;
-    opacity: 1;
-    text-decoration: none;
-    height: 27px;
-    margin-top: 49px;
-}
+
 .features {
-    width: 95px;
-    color: #005D6E;
-    text-shadow: 0px 2px 2px #00000029;
+	color: #005D6E;
 }
 
-.team {
-    width: 59px;
+.title{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+	text-decoration: none;
     color: #14B1AB;
 }
 
-.login {
-    width: 59px;
-    color: #14B1AB;
+nav {
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
 }
 
-.sign-up {
-    width: 85px; 
-    color: #14B1AB;
+nav a {
+	text-decoration: none;
+	color: #14B1AB;
+	font-family: “Arial”, sans-serif;
+	font-size: 24px;
 }
 
 h2 {
@@ -162,7 +152,7 @@ section p {
 		font-size: 2rem;
 	}
 	nav a {
-		font-size: 1.25rem;
+		font-size: 1rem;
     }
     h2{
         font-size: 2rem;
