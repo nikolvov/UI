@@ -147,7 +147,7 @@ section p {
     }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     h1 {
 		font-size: 2rem;
 	}
