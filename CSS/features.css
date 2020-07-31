@@ -95,28 +95,20 @@ nav a {
 }
 
 h2 {
-    font-family: "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 60px;
     color: #FF7777;
-    width: 878px;
-    height: 67px;
-    text-align: left;
-    letter-spacing: 0px;
-    opacity: 1;
-    margin-bottom: 5%;
+	font-family: “Arial”, sans-serif;
+	font-weight: bold;
+    font-size: 60px;
+    
 }
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10%;
-    padding: 4%;
 }
 
 section p {
-    margin-top: 2%;
     color: #3E3E3E;
     font-family: "Arial", sans-serif;
     font-size: 24px;
@@ -153,19 +145,19 @@ section p {
 	}
 	nav a {
 		font-size: 1rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+		text-align: center;
+		margin-top: 15%;
+	}
+	p {
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 3%;
     }
-    h2{
-        font-size: 2rem;
-        text-align: center;
-        margin-top: 12.5%;
-        width: 475px;
-        margin-bottom: 2%;
-    }
-    p {
-        text-align: center;
-        width: 400px;
-        margin-bottom: 3%;
-        font-size: 1.5rem;
+    .middle-section{
+        margin-top: 5%;
     }
 }
 
@@ -191,19 +183,16 @@ section p {
 		justify-content: space-between;
     }
     h2 {
-		font-size: 2rem;
+        font-size: 2.5rem;
 		text-align: center;
-        width: 95%;
-        margin-top: 5%;
-        margin-bottom: 50%;
+		margin-top: 25%;
 	}
     p {
-        text-align: center;
-        width: 95%;
         font-size: 1.5rem;
+		text-align: center;
+		margin-top: 3%;
     }
     .middle-section{
-        display: flex;
-        
+        display: flex;  
     }
 }
